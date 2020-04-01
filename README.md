@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Required libs
+create-react-app, mobx, mobx-react, react-router
+npm install --save-dev @babel/plugin-proposal-decorators
+npm install  customize-cra react-app-rewired.   (This is for es7 decorator)
+npm install --save-dev @babel/plugin-proposal-class-properties.     (This is for react-router to understand observable value)
+config-overrides.js file, .babelrc file, 
+
 ## Available Scripts
 
 In the project directory, you can run:
